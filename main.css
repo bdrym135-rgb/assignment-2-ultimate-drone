@@ -1,0 +1,1183 @@
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+.container {
+
+    background-color:white;
+
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.text-center {
+    text-align: center;
+    margin-block: 25px;
+}
+.end :hover #you{
+    color: blueviolet;
+
+    filter: invert(30% ) sepia(0.9) saturate(rgba(5, 5, 37, 0.133)3) ;
+}
+
+
+.end :hover {
+
+    color: aliceblue;
+    
+    
+}
+
+
+.navbar {
+    background-color: lightgrey;
+    width: 100%;
+
+
+    font-size: 25px;
+    padding-inline: 25px;
+    display: flex;
+
+
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+
+
+
+
+}
+
+.navbar-left img {
+    width: 5%;
+
+    border: 2px solid mediumorchid;
+    background-color: blueviolet;
+    border-radius: 10px;
+    position: relative;
+    bottom: 5px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.navbar .navbar-left {
+
+
+    display: flex;
+
+
+    align-items: center;
+    
+
+
+
+}
+
+.navbar .navbar-left .navbar-center {
+    align-items: center;
+}
+
+
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+
+}
+
+.navbar a {
+
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+    list-style: none;
+    color: black;
+
+
+
+}
+
+/*----------- start header-------- */
+
+
+
+.main-container-header{
+
+    width: 100%;
+    background-color: white;
+}
+.header {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 100px;
+
+
+
+}
+
+/* ---------------------header img-------------------- */
+
+.container .header-img img {
+    width: 100%;
+    gap: 20px;
+    padding:10px;
+
+
+    border-radius: 25px;
+
+
+
+
+
+}
+
+
+/* .header .container .header-img span{
+background-color: brown;
+position:absolute;
+right: 0;
+border-radius: 15px;
+
+} */
+.header .header-pecture {
+
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+
+    background-color: white;
+
+    width: 100%;
+    padding-block: 20px;
+    
+
+
+}
+
+
+.header .container {
+    background-color: white;
+    display: flex;
+    align-content: center;
+    padding: 30px;
+
+
+
+}
+
+
+.container .header-container-right .header-body-right {
+    margin-left: 25px;
+    
+
+}
+
+
+.container .header-container-right .header-body-right .button .button-1  {
+
+    font-size: 20px;
+     color: whitesmoke;
+    display: flex;
+    flex-direction: row; 
+     text-align: center; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* margin-left: 10px;  */
+
+    border-radius: 20px;
+    width:100%;
+    position: relative;
+    justify-content:center;
+    
+}
+
+
+.container .header-container-right .header-body-right .button .button-1 button {
+
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.container .header-container-right .header-body-right .button .button-1 span{
+
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    position: absolute;
+    top:10px;
+left: 30%;  
+margin-left: 10px;
+    
+
+}
+
+
+
+
+.container .header-container-right .header-body-right .button .button-2  {
+
+    font-size: 20px;
+     color: whitesmoke;
+    display: flex;
+    flex-direction: row; 
+     text-align: center; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px; 
+
+    border-radius: 20px;
+    width:100%;
+    position: relative;
+    justify-content:center;
+    
+}
+
+
+
+
+.container .header-container-right .header-body-right .button .button-2 button {
+
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.container .header-container-right .header-body-right .button .button-2 span{
+
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    position: absolute;
+    top:10px;
+left: 30%;  
+margin-left: 10px;
+    
+
+}
+
+
+
+
+
+
+
+
+.container .header-container-right .header-text button {
+
+    list-style: none;
+
+
+    justify-content: space-between;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: blueviolet;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+
+
+
+
+
+
+}
+
+.container .header-pecture .header-img {
+
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+
+
+
+.container .header-pecture .header-img span {
+
+    position: absolute;
+    background-color: blueviolet;
+    width: 20%;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+
+    border-radius: 10px;
+}
+
+
+
+/* ----------------end header-------------------------------- */
+
+
+
+
+
+
+/* ---------------- start about-------------------------------- */
+
+.about {
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.about .card {
+    background-color: white;
+    width: calc(33.33% - 20px);
+    height: 300px;
+    align-items: end;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+
+
+
+
+}
+
+.about .about-cards .card .card-text {
+
+
+    margin-left: 20px;
+
+
+}
+
+
+/* --------------------back dronud img--------------------- */
+.about .about-cards .card img {
+
+
+    margin-left: 20px;
+
+
+
+
+
+}
+
+/* -------------------------end back ground -img------------------- */
+
+.about .about-cards .card .card-text span {
+
+
+    color: blueviolet;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+.about .about-cards .card .card-text .card-text-1 p {
+
+    margin: 0;
+}
+
+.about .about-cards .card .card-text .card-text-1 {
+
+
+
+
+    border-top: 2px solid lightgrey;
+    padding-top: 10px;
+
+}
+
+.about .about-cards .card .card-text .card-text-1 p {}
+
+.about .card img {
+    width: 25%;
+
+}
+
+.about .about-cards {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20px;
+    gap: 20px;
+
+
+}
+
+
+/* --------------------------- end about----------------------------- */
+
+
+
+
+/* --------------------------- start shap----------------------------- */
+.shap {
+
+    background-color: blueviolet;
+    border-radius: 50px;
+    margin:50px 10px ;
+    display: flex;
+    height:20%;
+    padding: 20px;
+
+
+}
+.shap .shap-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20%;
+}
+
+.shap .shap-card {
+padding: 0;
+    font-size: 30px;
+    color: white;
+    /* font-weight: 700; */
+    /* background-color: antiquewhite; */
+}
+.shap h3{
+    /* background-color: antiquewhite; */
+    
+}
+
+/* 
+.shap a {
+width: 100%;
+    color:black;
+    font-size: 25px;
+    border-radius: 25px;
+    border: 2px solid blueviolet;
+    text-decoration: none;
+    background-color: aliceblue;
+    text-align: right
+    
+
+} */
+
+.shap   .card-ank {
+
+    background-color: white;
+    width:25%;
+ margin:70px 50px; 
+ gap: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: 2px solid blueviolet;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    
+}
+.shap a{
+
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* -------------------------------- end shap----------------------------------- */
+
+
+
+
+/* -------------------------------- start rating  ----------------------------------- */
+
+.rat {
+    background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    padding-block: 20px;
+
+    border-radius: 15px;
+
+
+}
+
+.rat .main-container{
+
+    /* background-color: aqua; */
+    display: flex;
+}
+.rat .main-container .container-1{
+
+    /* background-color: black; */
+    width: 30%;
+}
+
+
+.rat .main-container .container-2{
+
+    /* background-color: brown; */
+    width: 70%;
+}
+
+
+
+
+/* ---------------------------  start review------------------------- */
+.rat .rat-review {
+
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+
+}
+
+.rat .rat-review .body-review .review-top p {
+
+
+    text-align: center;
+}
+
+.rat .rat-review .body-review .review-top .review-top-star img {
+
+
+    width: 10%;
+
+
+
+
+
+}
+
+
+
+/* -------------------------------------star----------------------- */
+
+.rat .rat-review .body-review .star-shap img {
+
+    width: 5%;
+
+
+    margin-top: 3px;
+    margin-right: 5px;
+
+
+}
+
+.rat .rat-review .body-review .star-shap {
+
+
+    display: flex;
+    flex-direction: row;
+
+
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.rat .rat-review .body-review .star-shap .parnt {
+    width: 50%;
+    height: 10px;
+    border-radius: 10px;
+
+    background-color: lightgray;
+    margin-top: 5px;
+
+
+}
+
+.rat .rat-review .body-review .star-shap .parnt .child {
+    width: 80%;
+    height: 10px;
+
+    border-radius: 10px;
+
+    background-color: gold;
+
+}
+
+
+
+.rat .rat-review .body-review .star-shap .parnt .child-1 {
+    width: 25%;
+    height: 10px;
+
+    border-radius: 10px;
+
+    background-color: gold;
+
+}
+
+
+.rat .rat-review .body-review .star-shap .parnt .child-2 {
+    width: 10%;
+    height: 10px;
+
+    border-radius: 10px;
+
+    background-color: gold;
+
+}
+
+
+.rat .rat-review .body-review .star-shap .parnt .child-3 {
+    width: 5%;
+    height: 10px;
+
+    border-radius: 10px;
+
+    background-color: gold;
+
+}
+
+
+
+.rat .rat-review .body-review .star-shap .parnt .child-4 {
+    width: 2%;
+    height: 10px;
+
+    border-radius: 10px;
+
+    background-color: gold;
+
+}
+
+.rat .rat-review .body-review .star-shap span {
+    margin-left: 5px;
+
+}
+
+.rat .rat-review .body-review .container-shap {
+
+
+
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/* ---------------------------  end review------------------------- */
+
+
+
+
+.rat .rat-body {
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    width: 100%;
+
+
+}
+
+
+.rat .rat-say {
+
+
+    /* background-color: blueviolet;  */
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.rat .rat-say .rat-img {
+
+
+    display: flex;
+
+
+
+    flex-direction: row;
+}
+
+.rat .rat-say .rat-text {
+
+
+
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+
+
+
+
+
+
+}
+
+.rat .rat-say .rat-text h4 {
+
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.rat .rat-say .rat-text p {
+
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 0;
+}
+
+
+.rat .rat-body .rat-gold img {
+
+
+    width: 15px;
+
+
+
+
+
+
+
+}
+
+.rat .rat-say .rat-text .rat-gold img {
+
+    width: 15px;
+
+
+}
+
+.rat .rat-say .rat-text .rat-body-gold img {
+
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+
+}
+
+
+
+
+.rat .rat-say .rat-span {
+    /* background-color: lightskyblue; */
+    width: 100%;
+    text-align: right;
+    justify-content: space-between;
+
+
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.rat .rat-say .rat-span span {
+    background-color: lightskyblue;
+    color: blueviolet;
+    border-radius: 10px;
+}
+
+
+.rat .rat-say img {
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+
+
+
+}
+
+.rat .rat-body-p {
+
+    padding: 40px;
+    font-size: 25px;
+
+}
+
+/* ---------------------------rat-button------------------------- */
+
+
+
+
+.rat .rat-body-button {
+
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+
+}
+
+.rat button {
+
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+}
+
+
+
+/* ------------------------------- end rating------------------- */
+
+
+
+
+
+/* -------------------------------start product------------------- */
+
+
+.serves {
+    width: 80%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding-block: 20px;
+
+
+
+
+
+
+
+
+
+
+}
+
+.cap .card {
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    padding: 10px;
+
+    width: calc(25% - 20px);
+    position: relative;
+    top: 0;
+    border-radius: 15px;
+
+
+
+
+
+
+
+    /* -------------------------- cards-------------------------- */
+
+}
+
+.portfolio .cap {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 15px;
+
+
+
+
+
+}
+
+.portfolio .port button {
+    width: 25%;
+    font-size: 20px;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    border-radius: 50px;
+    padding: 10px;
+    margin:50px 40% ;
+    /* margin-top: 50px; */
+
+
+
+
+}
+
+
+.cap .card img {
+
+    width: 100%;
+    border-radius: 15px;
+
+
+
+}
+
+/* --------------------------- card span img------------------ */
+.card-1 {
+
+    width: 25%;
+    background-color: cyan;
+
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-radius: 15px;
+    padding: 2px;
+
+
+}
+.card-2 {
+
+    width: 25%;
+    background-color: yellowgreen;
+
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-radius: 15px;
+    padding: 2px;
+
+
+}
+.card-3 {
+
+    width: 25%;
+    background-color: lightseagreen;
+
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-radius: 15px;
+    padding: 2px;
+
+
+}
+.card-4 {
+
+    width: 25%;
+    background-color: darkorange;
+
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-radius: 15px;
+    padding: 2px;
+
+
+}
+
+
+
+
+.cap .card .card-text button {
+
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    margin-left:60%;
+
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+
+
+
+/* -------------------------------end product------------------- */
+
+
+
+
+
+
+
+
+
+/* -------------------------------start end ------------------- */
+
+.end {
+
+    background-color: darkblue;
+    width: 100%;
+    margin: auto;
+
+}
+
+.end .end-container {
+
+    background-color: darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.end .right-end .end-img img {
+    width: 100%;
+    margin: 10px;
+    background-color: darkorchid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.end .right-end .end-img {
+    width: 20%;
+
+
+
+    display: flex;
+}
+
+.end .right-end .end-img h3 {
+
+    font-size: 20px;
+    color: white;
+}
+
+.end .right-end {
+
+    width: 25%;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.end .right-end .end-photo img {
+
+    width: 15%;
+    background-color: darkblue;
+    margin: 5px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.end .end-midl {
+
+    background-color: darkblue;
+    color: darkgrey;
+
+    width: 15%;
+}
+
+.end .end-midl h3 {
+    font-size: 20px;
+    color: white
+}
+
+/* ------------------------------- end final------------------ */
+
+
+.end .end-final {
+
+    background-color: darkblue;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid lightgray;
+    justify-content: space-between;
+
+
+}
+
+.end .end-final p {
+
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+
+}
+
+.end .end-final .final-img img {
+    width: 30%;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+
+
+
+
+    background-color: white;
+}
+
+.end .end-final .final-img {
+    width: 25%;
+    background-color: darkblue;
+    margin-top: 20px;
+
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.end .end-final .final img {
+    width: 60%;
+
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+
+/* -------------------------------end end------------------- */
